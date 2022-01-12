@@ -1,5 +1,6 @@
+
 .main-bg {
-  background-image: url("../img/main-bg.svg");
+  background-image: url('../img/main-bg.svg');
   background-size: cover;
   background-position: center center;
   color: var(--white-color);
@@ -7,13 +8,12 @@
 
 .white-bg {
   background: var(--white-color);
-  color: var(--primary-color);
 }
 
 .main-content {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 10rem var(--gap);
+  padding: var(--gap);
 }
 
 .section {
@@ -21,5 +21,5 @@
 }
 
 .menu-spacing {
-  height: 3.8rem;
+  height: 65px;
 }
