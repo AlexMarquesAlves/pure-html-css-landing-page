@@ -4,7 +4,16 @@
   left: 0;
   right: 0;
   width: 100%;
-  border-bottom: var(--light-gray-color) solid 0.1rem;
+  z-index: 1;
+  border-bottom: 0.1rem solid var(--light-gray-color);
+}
+
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .menu h1 {
@@ -14,14 +23,6 @@
 
 .menu h1 a {
   color: inherit;
-}
-
-.menu-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 .menu ul {
@@ -42,8 +43,8 @@
   position: absolute;
   bottom: 1rem;
   left: 50%;
+  width: 0;
   height: 0.2rem;
-  width: 0%;
   background: var(--secondary-color);
   transition: all 300ms ease-in-out;
 }
