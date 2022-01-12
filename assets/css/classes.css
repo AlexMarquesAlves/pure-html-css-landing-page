@@ -1,5 +1,6 @@
+
 .main-bg {
-  background-image: url("../img/main-bg.svg");
+  background-image: url('../img/main-bg.svg');
   background-size: cover;
   background-position: center center;
   color: var(--white-color);
@@ -22,4 +23,9 @@
 
 .menu-spacing {
   height: 65px;
+}
+
+body .full-width {
+  width: 100%;
+  flex: 1 1 100%;
 }
